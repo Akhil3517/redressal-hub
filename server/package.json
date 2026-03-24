@@ -1,0 +1,21 @@
+{
+  "name": "ai-grievance-backend",
+  "version": "1.0.0",
+  "description": "Node.js + Express + MongoDB backend for AI grievance dashboard",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "seed:reviews": "node scripts/seedDummyReviews.js",
+    "seed:portals": "node scripts/seedPortalCatalog.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.0",
+    "morgan": "^1.10.0"
+  }
+}

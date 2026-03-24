@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Query Assistant Logo</title>
+  <desc id="desc">Modern chat bubble with magnifying glass icon for an AI grievance assistant.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#22c55e"/>
+    </linearGradient>
+  </defs>
+  <rect x="32" y="32" width="448" height="448" rx="96" fill="url(#bg)"/>
+  <!-- chat bubble -->
+  <path
+    d="M156 156c0-16.6 13.4-30 30-30h140c35.3 0 64 28.7 64 64v60c0 35.3-28.7 64-64 64h-56l-40 48c-4.9 5.9-14.1 2.4-14.1-5.2V314H186c-16.6 0-30-13.4-30-30z"
+    fill="#f9fafb"
+    opacity="0.96"
+  />
+  <!-- magnifying glass -->
+  <circle cx="302" cy="214" r="44" fill="none" stroke="#2563eb" stroke-width="10"/>
+  <line x1="332" y1="244" x2="360" y2="272" stroke="#2563eb" stroke-width="10" stroke-linecap="round"/>
+  <!-- spark / accent -->
+  <circle cx="200" cy="196" r="6" fill="#22c55e"/>
+  <circle cx="224" cy="220" r="6" fill="#22c55e"/>
+  <circle cx="200" cy="244" r="6" fill="#22c55e"/>
+</svg>
+
